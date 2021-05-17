@@ -1,0 +1,5 @@
+.idea
+*/.keep
+node_modules
+mochawesome-report
+src/problem4/*.js

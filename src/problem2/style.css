@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    max-width: 330px;
+    min-width: 330px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form .MuiFormControl-root {
+    margin-top: 50px;
+}
+
+.form .MuiButton-root {
+    margin-top: 70px;
+}
